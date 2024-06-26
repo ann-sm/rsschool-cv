@@ -8,10 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * +7(912)345-67-89
 * annsmirnovva@gmail.com
 * Moscow, Russia
-[github](https://github.com/ann-sm), [telegram](https://github.com/ann-sm)
-
-## Work Experience
-
+* [github](https://github.com/ann-sm), [telegram](https://github.com/ann-sm)
 
 ## Education
 * *Moscow State University*, Faculty of Economics
