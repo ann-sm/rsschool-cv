@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  color: ;
+}
+
+h3 {
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+
+}
+
+.menu-container {
+  width: 40%;
+  background: rgba(0, 3, 0, 0.5);
+}
+
+.list-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.list-menu-item {
+  padding: 20px;
+  color: white;
+}
+
+.list-skills {
+  list-style-type: none;
+  display: flex;
+}
+
+.skills-logo {
+  width: 50px;
+}
