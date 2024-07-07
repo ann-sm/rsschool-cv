@@ -20,20 +20,29 @@ main {
 h1 {
   font-size: 42px;
   margin-bottom: 10px;
+  color: #0d3d71;
+}
+
+h2 {
+  color: black;
+  font-weight: 500;
+  padding-bottom: 10px;
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 400;
+  color: #ef8f38;
+  margin-bottom: 60px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   transition: 0.3s;
 }
 
 a:hover {
-  color: red;
+  color: #ef8f38
 }
 
 a.link-menu {
@@ -47,11 +56,12 @@ a.link-mail {
 }
 
 a.link-mail:hover {
-  color: red;
+  color: #ef8f38;
 }
 
 .bold {
   font-weight: 700;
+  line-height: 24px;
 }
 
 .wrap-container {
@@ -61,7 +71,7 @@ a.link-mail:hover {
 
 .menu-container {
   width: 25%;
-  background: rgba(0, 3, 0, 0.5);
+  background-color: #f5e8d0;
   padding-top: 80px;
 }
 
@@ -81,7 +91,11 @@ a.link-mail:hover {
 }
 
 .section-profile {
-  margin-bottom: 100px;
+  display: flex;
+}
+
+.section-profile-text {
+  width: 60%;
 }
 
 .list-contacts {
@@ -124,15 +138,37 @@ a.link-mail:hover {
   display: flex;
   justify-content: space-between;
   width: 400px;
+  padding-left: 0px;
 }
 
 .skills-logo {
   width: 50px;
 }
 
+.wrapper {
+  display: flex;
+}
+
+.wrapper-element {
+  width: 50%;
+}
+
+.list-projects {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-projects-item {
+  margin-bottom: 10px;
+}
+
+.list-projects-item a {
+  background-color: #86d3cb;
+}
+
 .code-container {
-  padding: 20px;
-  border: 3px dotted red;
+  padding: 10px;
+  border: 3px dotted #86d3cb;
 }
 
 .footer-container {
@@ -140,13 +176,13 @@ a.link-mail:hover {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgb(110, 36, 36);
+  background-color: #0d3d71;
   padding: 10px;
 }
 
 .year {
   color: white;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .github-logo {
@@ -155,7 +191,7 @@ a.link-mail:hover {
   background-image: url(assets/svg/github-circle.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .rsschool-logo {
@@ -164,4 +200,5 @@ a.link-mail:hover {
   background-image: url(assets/svg/rss.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 20px;
 }

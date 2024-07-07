@@ -11,47 +11,53 @@
     <header class="menu-container">
       <nav class="menu">
         <ul class="list-menu">
-          <li class="list-menu-item"><a class="link-menu" href="#about-me">About me</a></li>
           <li class="list-menu-item"><a class="link-menu" href="#contact">Contact</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#about-me">About me</a></li>
           <li class="list-menu-item"><a class="link-menu" href="#education">Education</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#languages">Languages</a></li>
           <li class="list-menu-item"><a class="link-menu" href="#skills">Skills</a></li>
           <li class="list-menu-item"><a class="link-menu" href="#projects">Projects</a></li>
           <li class="list-menu-item"><a class="link-menu" href="#code">Code Examples</a></li>
-          <li class="list-menu-item"><a class="link-menu" href="#languages">Languages</a></li>
         </ul>
       </nav>
     </header>
     <main class="main-container">
       <section class="section-profile" id="profile">
-        <h1>Anna Smirnova</h1>
-        <h3>Junior Frontend Developer</h3>
+        <div class="section-profile-text">
+          <h1>Anna Smirnova</h1>
+          <h3>Junior Frontend Developer</h3>
+          <section id="contact">
+            <h2>Contact</h2>
+            <ul class="list-contacts">
+              <li class="list-contacts-item"><img src="assets/svg/phone.svg" alt="phone" class="phone"><span>+7 (912) 345-67-89</span></li>
+              <li class="list-contacts-item"><img src="assets/svg/mail.svg" alt="mail" class="mail"><a href="/" class="link-mail">annsmirnovva@gmail.com</a></li>
+              <li class="list-contacts-item"><img src="assets/svg/location.svg" alt="location" class="location"><span>Moscow, Russia</span></li>
+            </ul>
+          </section>
+        </div>
+        <div class="section-profile-photo">
+          <img src="assets/img/photo.png" alt="profile-photo" class="profile-photo">
+        </div>
       </section>
       <section id="about-me">
         <h2>About me</h2>
-        <img>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod quis viverra nibh cras. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Ipsum consequat nisl vel pretium lectus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.</p>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <ul class="list-contacts">
-          <li class="list-contacts-item"><img src="assets/svg/phone.svg" class="phone"><span>+7 (912) 345-67-89</span></li>
-          <li class="list-contacts-item"><img src="assets/svg/mail.svg" class="mail"><a href="/" class="link-mail">annsmirnovva@gmail.com</a></li>
-          <li class="list-contacts-item"><img src="assets/svg/location.svg" class="location"><span>Moscow, Russia</span></li>
-        </ul>
-      </section>
-      <section id="education">
-        <h2>Education</h2>
-        <ul>
-          <li><span class="bold">Moscow State University</span>, Faculty of Economics</li>
-        </ul>
-      </section>
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li><span class="bold">Russian</span> Native</li>
-          <li><span class="bold">English</span> B2/C1</li>
-        </ul>
-      </section>
+      <div class="wrapper">
+        <section class="wrapper-element" id="education">
+          <h2>Education</h2>
+          <ul>
+            <li><span class="bold">Moscow State University</span>, Faculty of Economics</li>
+          </ul>
+        </section>
+        <section class="wrapper-element" id="languages">
+          <h2>Languages</h2>
+          <ul class="list-languages">
+            <li class="languages-item"><span class="bold">Russian</span>, Native</li>
+            <li class="languages-item"><span class="bold">English</span>, B2/C1</li>
+          </ul>
+        </section>
+      </div>
       <section id="skills">
         <h2>Skills</h2>
         <ul class="list-skills">
@@ -61,16 +67,21 @@
           <li><img class="skills-logo" src="assets/figma.png" alt="figma"></li>
         </ul>
       </section>
-      <section id="projects">
-        <h2>Projects</h2>
-
-      </section>
-      <section id="code">
-        <h2>Code Examples</h2>
-        <code class="code-container"> const test = "Hello";
-                  console.log(test);
-        </code>
-      </section>
+      <div class="wrapper">
+        <section class="wrapper-element" id="projects">
+          <h2>Projects</h2>
+          <ul class="list-projects">
+            <li class="list-projects-item"><a href="/">CV</a></li>
+            <li class="list-projects-item"><a href="/">Shelter</a></li>
+          </ul>
+        </section>
+        <section class="wrapper-element" id="code">
+          <h2>Code Examples</h2>
+          <code class="code-container"> const test = "Hello";
+                    console.log(test);
+          </code>
+        </section>
+        </div>
     </main>
   </div>
   <footer>
