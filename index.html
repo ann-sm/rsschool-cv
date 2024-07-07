@@ -2,48 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CV</title>
+  <title>cv</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-  <div class="container">
+  <div class="wrap-container">
     <header class="menu-container">
       <nav class="menu">
         <ul class="list-menu">
-          <li class="list-menu-item"><a href="#about-me">About me</a></li>
-          <li class="list-menu-item"><a href="#contact">Contact</a></li>
-          <li class="list-menu-item"><a href="#education">Education</a></li>
-          <li class="list-menu-item"><a href="#skills">Skills</a></li>
-          <li class="list-menu-item"><a href="#projects">Projects</a></li>
-          <li class="list-menu-item"><a href="#code">Code Examples</a></li>
-          <li class="list-menu-item"><a href="#languages">Languages</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#about-me">About me</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#contact">Contact</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#education">Education</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#skills">Skills</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#projects">Projects</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#code">Code Examples</a></li>
+          <li class="list-menu-item"><a class="link-menu" href="#languages">Languages</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Anna Smirnova</h1>
-      <h3>Junior Frontend Developer</h3>
-      <section class="" id="about-me">
+    <main class="main-container">
+      <section class="section-profile" id="profile">
+        <h1>Anna Smirnova</h1>
+        <h3>Junior Frontend Developer</h3>
+      </section>
+      <section id="about-me">
         <h2>About me</h2>
         <img>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in arcu cursus euismod quis viverra nibh cras. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Ipsum consequat nisl vel pretium lectus. Pharetra sit amet aliquam id diam maecenas ultricies mi eget.</p>
       </section>
       <section id="contact">
         <h2>Contact</h2>
-        <ul>
-          <li>+7 (912) 345-67-89</li>
-          <li><a href="annsmirnovva@gmail.com">annsmirnovva@gmail.com</a></li>
-          <li>Moscow, Russia</li>
-          <li>github](https://github.com/ann-sm), [telegram](https://github.com/ann-sm)</li>
+        <ul class="list-contacts">
+          <li class="list-contacts-item"><img src="assets/svg/phone.svg" class="phone"><span>+7 (912) 345-67-89</span></li>
+          <li class="list-contacts-item"><img src="assets/svg/mail.svg" class="mail"><a href="/" class="link-mail">annsmirnovva@gmail.com</a></li>
+          <li class="list-contacts-item"><img src="assets/svg/location.svg" class="location"><span>Moscow, Russia</span></li>
         </ul>
       </section>
       <section id="education">
         <h2>Education</h2>
-        <p>Moscow State University, Faculty of Economics</p>
+        <ul>
+          <li><span class="bold">Moscow State University</span>, Faculty of Economics</li>
+        </ul>
       </section>
       <section id="languages">
         <h2>Languages</h2>
-        <p>English (Upper Intermediate/Advanced)</p>
+        <ul>
+          <li><span class="bold">Russian</span> Native</li>
+          <li><span class="bold">English</span> B2/C1</li>
+        </ul>
       </section>
       <section id="skills">
         <h2>Skills</h2>
@@ -56,21 +63,21 @@
       </section>
       <section id="projects">
         <h2>Projects</h2>
+
       </section>
       <section id="code">
         <h2>Code Examples</h2>
-        <code> const test = "Hello";
+        <code class="code-container"> const test = "Hello";
                   console.log(test);
         </code>
       </section>
-
     </main>
   </div>
   <footer>
-    <div>
-      <a href="https://github.com/ann-sm">github</a>
-      <p>2024</p>
-      <a href="https://rs.school/courses/javascript-ru">rs-logo</a>
+    <div class="footer-container">
+      <p class="year">© 2024</p>
+      <a href="https://github.com/ann-sm" class="github-logo"></a>
+      <a href="https://rs.school/courses/javascript-ru" class="rsschool-logo"></a>
     </div>
   </footer>
 </body>
